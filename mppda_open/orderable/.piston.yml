@@ -1,0 +1,8 @@
+--- 
+repository_url: http://github.com/ajshort/silverstripe-orderable.git
+lock: false
+repository_class: Piston::Git::Repository
+format: 1
+handler: 
+  commit: b02cae69fa20dfed4319ed863fd07b0e536698cd
+  branch: master

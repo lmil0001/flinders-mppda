@@ -1,0 +1,220 @@
+.typography * {
+	font-family: Verdana,Tahoma,Arial,sans-serif;
+}
+
+/* PARAGRAPHS */
+
+.typography p {
+	color: #555;
+	line-height: 18px;
+	font-size: 1.2em;
+	margin: 0 0 15px 0;
+}
+
+.typography strong {
+	font-weight: bold;
+}
+
+.typography blockquote {
+	margin: 10px;
+	color: #777;
+	font-style: italic;
+	font-size: 1.1em;
+}
+
+/* LINKS */
+
+.typography a {
+	text-decoration: none;
+	color: #4c78a7;
+}
+
+.typography a:hover {
+	text-decoration: underline;
+}
+
+/* LIST STYLES */
+
+.typography ul, 
+.typography ol {
+	margin: 10px;
+	font-size: 1.2em;
+}
+
+.typography li {
+	margin: 5px 15px;
+}
+
+.typography ul li p {
+	padding-top: 10px;
+}
+
+.typography dl { margin: 10px 0; line-height: 25px; }
+.typography dt { font-size: 1.2em; font-weight: bold; width: 120px; float: left; padding-left: 5px; }
+.typography dd { font-size: 1.2em; padding-right: 5px; padding-left: 125px; }
+.typography dd:nth-of-type(odd) { background: #F4F4F4; }
+.typography dd:last-child { border-bottom: 1px solid #CCC; }
+
+/* no list style */
+
+.typography ul.noList {
+	list-style: none;
+}
+
+.typography li.noList {
+	list-style: none;
+}
+
+/* HEADER STYLES */
+
+.typography h1, .typography h2, .typography h3 {
+	color: #003366;
+	margin: 10px 0 5px;
+	clear: both;
+	font-weight: 400;
+}
+
+.typography h1 {
+	font-size: 1.8em;
+}
+
+.typography h2 {
+	font-size: 1.6em;
+}
+
+.typography h3 {
+	font-size: 1.4em;
+}
+
+.typography h4 {
+	font-size: 1.4em;
+	color: #222;
+	width: 95%;
+	clear: both;
+	font-weight: normal;
+	border-bottom: 1px solid #ccc;
+}
+
+.typography h5 {
+	font-size: 1.2em;
+	color: #222;
+	font-weight: normal;
+}
+
+.typography h6 {
+	font-size: 1.2em;
+	color: #555;
+	line-height: 14px;
+}
+
+/* ADRESS STYLES */
+
+.typography pre {
+	font-family: "Courier New",Courier;
+	display: block;
+	font-size: 12px;
+	margin: 2em 5em;
+	padding: 0.5em;
+	border: 1px #ccc solid;
+	background: #eee;
+;
+}
+
+.typography label {
+	display: block;
+	margin: 10px 0 -10px 0;
+	color: #777;
+}
+
+.typography q {
+	display: block;
+	font-size: 08px;
+	margin: 1em 1em;
+	padding: 0.5em;
+	border: 1px #ccc solid;
+}
+
+/* TABLE STYLING */
+
+.typography table {
+	margin: 10px;
+	font-size: 1.2em;
+	color: #666;
+	border-collapse: collapse;
+}
+
+.typography td {
+	border: 1px solid #999;
+	padding: 5px;
+}
+
+/* WYSIWYG EDITOR ALIGNMENT CLASSES */
+
+.typography .left {
+	text-align: left;
+}
+
+.typography .center {
+	text-align: center;
+}
+
+.typography .right {
+	text-align: right;
+}
+
+.typography img.right {
+	float: right;
+	margin-left: 20px;
+}
+
+.typography img.left {
+	float: left;
+	margin-right: 20px;
+}
+
+.typography img.leftAlone {
+	float: left;
+	margin-right: 100%;
+}
+
+.typography img.center {
+	display: block;
+	float: none;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Images */
+
+.typography div.captionImage {
+	border: 1px solid #ccc;
+	padding: 5px;
+	margin: 20px;
+}
+
+.typography div.captionImage p {
+	padding-top: 5px;
+	clear: both;
+	font-size: 11px;
+}
+
+.typography div.left {
+	margin: 20px 20px 20px 0;
+	float: left;
+}
+
+.typography div.right {
+	margin: 20px 0px 20px 20px;
+	float: left;
+}
+
+/* FORMS */
+
+.typography label {
+	font-size: 12px;
+}
+
+.typography input.text, 
+.typography textarea {
+	font-size: 12px;
+}

@@ -1,0 +1,8 @@
+--- 
+repository_url: https://github.com/silverstripe/silverstripe-spamprotection.git
+lock: false
+repository_class: Piston::Git::Repository
+format: 1
+handler: 
+  commit: 237d08d5dd2b3a5f37bce3a0ae43b3513473ff18
+  branch: master

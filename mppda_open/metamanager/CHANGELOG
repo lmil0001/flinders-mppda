@@ -1,0 +1,24 @@
+0.0.4 - 01 May 2010 by Peter Nilsson
+State of checkbox is now saved to db per page.
+Made keywords unique.
+Added option to select tab for the checkbox (deafult is Metadata tab)
+Added common english and swedish words to excluded words.
+
+0.0.3 - 22 October 2009 by Juanitou
+Better utf8 handling, fix for special characters beeing displayed as html entities.
+
+0.0.2 - 22 July 2009 by Martijn van Nieuwenhoven
+Updated disable_update_url so it does alter the URLsegment without the Confirm dialog. SS does fire a 301 Permanently Moved header on url change.
+Added update_url to choose wether to update the URLsegment automaticly or not.
+Added custom UpdateURL.js for autoupdate URLsegment without Confirm dialog.
+Added option to select wich metafields to update.
+Added translationstring for the Update Meta-data checkbox.
+Added option to hide the checkbox.
+Added option to select the position of the checkbox.
+Added option to show wich metafields are autoupdated.
+Added English and Dutch language files.
+Added option to disable the module without removing the fields from the site.
+Added option to limit the MetaDescription Length.
+
+0.0.1 - 21 July 2009 by Martijn van Nieuwenhoven
+Initial release

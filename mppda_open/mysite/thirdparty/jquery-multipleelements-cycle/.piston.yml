@@ -1,0 +1,8 @@
+--- 
+repository_url: https://github.com/willrossi/jQuery-Multiple-Elements-Cycle.git
+lock: false
+repository_class: Piston::Git::Repository
+format: 1
+handler: 
+  commit: 64be8f4794686338bc989559c745486aab53da5b
+  branch: master

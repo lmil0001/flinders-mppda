@@ -1,0 +1,4 @@
+.addabledropdown .middleColumn { overflow: auto; }
+.addabledropdown-add-item { display: block; float: left; width: 16px; height: 16px; margin-left: 2px; }
+.addabledropdown select { float: left; }
+.addabledropdown-add-item-dialog input { width: 98%; padding: 2px; font-size: 13px; font-weight: bold; }

@@ -1,0 +1,8 @@
+--- 
+repository_url: https://github.com/chillu/recaptcha.git
+lock: false
+repository_class: Piston::Git::Repository
+format: 1
+handler: 
+  commit: 9235a28672d2e473834ce02e3e5b8af97807c6d8
+  branch: master

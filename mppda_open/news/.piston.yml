@@ -1,0 +1,8 @@
+--- 
+repository_url: http://github.com/nyeholt/silverstripe-news.git
+lock: false
+repository_class: Piston::Git::Repository
+format: 1
+handler: 
+  commit: 64d24e8ba568b5430bc925be3e9feeb28a0b6c19
+  branch: master
