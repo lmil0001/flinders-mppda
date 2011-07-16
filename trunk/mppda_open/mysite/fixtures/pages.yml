@@ -1,0 +1,131 @@
+HomePage:
+  home:
+    Title: Home
+    Content: |
+      <p>The MPPDA Digital Archives consists of a database of the extant records
+      of the General Correspondence files of the Motion Picture Producers and
+      Distributors of America, Inc., covering the period from 1922 to 1939.
+      Established in 1922, the MPPDA was the trade association for the motion
+      picture industry, and included all the major companies producing and
+      distributing motion pictures in the United States in its membership. The
+      association was popularly known as the Hays Office, after its first
+      President, Will H. Hays, who remained office until 1945. Hays was a leading
+      Republican party politician, who resigned from President Warren Harding’s
+      Cabinet to take up the MPPDA position. After Hays’ retirement, the association
+      was renamed the Motion Picture Association of America.</p>
+      
+      <p>The documents in the MPPDA’s General Correspondence files are an immensely
+      rich source of information about the history of the motion picture industry.
+      They describe the organization and operation of the industry’s trade association,
+      and include extensive correspondence and other documentation relating to
+      industry policy and public relations, distributor-exhibitor relations,
+      censorship and self-regulation. The great majority of this material is
+      unavailable from other sources.</p>
+    Sort: 1
+
+Page:
+  about:
+    Title: About Us
+    Content: |
+      <h1>About Flinders University</h1>
+      <p>Flinders University enjoys a well-justified  reputation for its excellence
+      in teaching  and research. It has a  long-standing commitment to enhancing
+      educational opportunities for all  and a proud record of community engagement.</p>
+      <p>Since being  established in 1966, Flinders has achieved much of which
+      we can be very  proud&mdash;in innovative research, in high quality teaching
+      and in community  engagement.</p>
+      <p>We have led the way in providing access to higher education for individuals
+      who did not traditionally aspire to University.</p>
+      <p>We  have attracted students from over 100 countries and our alumni have
+      built careers and lives that enrich communities across Australia and
+      throughout the world.</p>
+      <p>Flinders’ achievements are underpinned by  the network of strong external
+      links that we have developed with our  stakeholders and with the communities
+      we serve. We commit to being a  university that is outwardly engaged, continuing
+      to build the supportive  and valued relationships which will be vital for
+      the future.</p>
+    Sort: 2
+  about_department:
+    Title: About The Department
+    Parent: =>Page.about
+  about_researchers:
+    Title: The Researchers
+    Parent: =>Page.about
+  history:
+    Title: History
+    Content: |
+      <h1>Origins of the Flinders archive and the MPPDA</h1>
+      <p>From this page, you can find a history of the Archive and its development,
+      as well as a brief history of the MPPDA, and a "Who's Who" and "What's What"
+      of the most prominent people and organisations appearing in the Archive.</p>
+    Sort: 4
+  history_archive:
+    Title: Archive History
+    Parent: =>Page.history
+  history_archive_original:
+    Title: The Original Material
+    Parent: =>Page.history_archive
+  history_archive_development:
+    Title: Developing The Catalogue And Database
+    Parent: =>Page.history_archive
+  history_archive_credits:
+    Title: Credits
+    Parent: =>Page.history_archive
+  history_mppda:
+    Title: MPPDA History
+    Parent: =>Page.history
+  copyright:
+    Title: Copyright
+    Sort: 8
+    ShowInMenus: 0
+    ShowInFooterMenu: 1
+  disclaimer:
+    Title: Disclaimer
+    Sort: 9
+    ShowInMenus: 0
+    ShowInFooterMenu: 1
+  acknowledgement:
+    Title: Acknowledgement
+    Sort: 10
+    ShowInMenus: 0
+    ShowInFooterMenu: 1
+
+FeaturedPeoplePage:
+  featured_people:
+    Title: Featured People
+    Sort: 3
+
+NewsHolder:
+  news:
+    Title: News
+    Sort: 5
+
+RecordsLinkPage:
+  records:
+    Title: Records
+    Sort: 6
+
+UserDefinedForm:
+  contact:
+    Title: Contact Us
+    Content: |
+      <p>You can contact the researchers and administrators of this site by
+      using the form below.</p>
+    ShowInMenus: 0
+    ShowInFooterMenu: 1
+    Sort: 7
+
+ErrorPage:
+  not_found:
+    Title: Page Not Found
+    ErrorCode: 404
+    Content: |
+      <p>Sorry, it seems you were trying to access a page that doesn't exist.</p>
+      <p>Please check the spelling of the URL you were trying to access and try again.</p>
+    Sort: 11
+  server_error:
+    Title: Server Error
+    ErrorCode: 500
+    Content: |
+      <p>Sorry, there was a problem with handling your request.</p>
+    Sort: 12

@@ -1,0 +1,306 @@
+/******************************
+ * 
+ * Fieldset
+ * 
+ ******************************/
+
+fieldset {
+	border: 0 none;
+}
+
+/******************************
+ * 
+ * Actions
+ * 
+ ******************************/
+
+input.action {
+	padding: 2px;
+	font-size: 1em;
+	font-family: Verdana, Tahoma, Sans-serif;
+}
+
+input.action:hover,
+input.action:focus {
+	cursor: pointer;
+}
+
+#sidenav_twocol .Actions {
+	margin-top: 10px;
+	margin-bottom: -15px;
+}
+
+/******************************
+ * 
+ * Formatting
+ * 
+ ******************************/
+
+form ul {
+	list-style: none;
+}
+
+.middleColumn {
+	display: block;
+	margin: 15px 10px 0 0;
+	background: #E9E9E9;
+	padding: 8px;
+	width: 306px;
+	clear: left;
+}
+
+#Sidebar .middleColumn {
+	margin: 0 0 0 8px;
+	display: inline;
+}
+
+div.tab .field .middleColumn {
+	clear: none !important;
+	margin: 0 !important;
+	width: auto;
+}
+
+.middleColumn .middleColumn {
+	margin-left: 0;
+	margin-right: 0;
+	padding: 0;
+}
+
+.middleColumn .message {
+	margin: 0;
+}
+
+/******************************
+ * 
+ * Input / textarea
+ * 
+ ******************************/
+
+input.text, textarea, select {
+	padding: 2px;
+	border: 1px solid #A7A7A7;
+	color: #000;
+	font-size: 1.0em;
+	width: 300px;
+}
+
+textarea {
+	font-family: Verdana, Tahoma, sans-serif;
+	font-size: 1.0em;
+}
+
+input:focus span, textarea:focus span {
+	border: 3px solid #000;
+}
+
+/******************************
+ * 
+ * Dropdown
+ * 
+ ******************************/
+
+select {
+	width: auto;
+}
+
+/******************************
+ * 
+ * Labels
+ * 
+ ******************************/
+
+.typography label {
+	color: #777;
+	display: block;
+	font-size: 1em;
+	margin: 10px 0 -10px 0;
+}
+
+label.right {
+	display: inline;
+}
+
+label:hover {
+	cursor: pointer;
+}
+
+label.error {
+	border: 1px solid #aaa;
+	background: #aa2222;
+	color: #fff;
+	padding: 5px;
+	margin: 0;
+}
+
+input.error {
+	border: 1px solid  #aa2222;
+}
+
+/**
+ * Sidebar
+ */
+
+#sidebar form {
+	margin-left: 5px;
+}
+
+#sidebar label {
+	color: #FFF;
+	font-weight: bold;
+	margin-top: 5px;
+}
+
+#sidebar .middleColumn {
+	background: none;
+	padding: 0;
+	margin: 12px 0 0 0;
+	width: 170px;
+}
+
+#sidebar input.text {
+	width: 160px;
+}
+
+#sidebar select {
+	width: 164px;
+}
+
+#sidebar .Actions {
+	margin-top: 10px;
+	margin-bottom: -15px;
+}
+
+#sidebar input.action,
+#sidebar button {
+	font-weight: bold;
+	padding: 2px;
+	font-size: 1em;
+}
+
+/* Userforms */
+
+label.message {
+	font-weight: bold;
+}
+
+label.required {
+	color: red;
+}
+
+/* @group Front page contact us form */
+
+#fp_form .middleColumn {
+	width: 95%;
+}
+
+#fp_form input.text, #fp_form textarea, #fp_form select {
+	width: 95%;
+}
+
+#fp_form .action {
+	width: 92px;
+	height: 27px;
+	padding: 27px 0 0;
+	margin: 0;
+	border: 0;
+	background: #fff url(../images/submit.png) no-repeat center top;
+	overflow: hidden;
+	cursor: pointer;
+	/* hand
+
+-shaped cursor */
+  cursor: hand;
+/* for 
+
+IE 5.x */
+}
+
+form>#fp_form .action {
+
+
+/* For non-IE browsers*/
+  height: 0px;
+}
+
+/* @end */
+
+/* @group Search */
+
+/* Search form position */
+
+form#SearchForm_SearchForm {
+	width: 170px;
+	float: right;
+	margin: 5px 0 0;
+	padding: 0;
+}
+
+form#SearchForm_SearchForm fieldset .middleColumn {
+	margin: 0 5px 0 0;
+	padding: 2px;
+	width: 164px;
+}
+
+.field {
+	float: left;
+	width: 70%;
+}
+
+form#SearchForm_SearchForm input.text {
+	border: medium none !important;
+	color: #292929;
+	font-weight: normal;
+	width: 160px;
+}
+
+#SearchForm_SearchForm #SearchForm_SearchForm_action_results {
+	background: url("../images/search.png") no-repeat scroll 0 3px transparent;
+	border: medium none;
+	float: left;
+	height: 20px;
+	padding-left: 20px;
+}
+
+form#SearchForm_SearchForm input.action {
+	font-family: Verdana,Tahoma,Sans-serif;
+	font-size: 11px;
+	padding: 2px;
+}
+
+form#SearchForm_SearchForm input.action:hover {
+	cursor: pointer;
+}
+
+/* @end */
+
+/* @group Radiolist */
+
+.optionset ul {
+	background-color: #fff;
+	margin: 0;
+	padding: 4px 0 2px;
+	display: block;
+	height: 20px;
+	border: 1px solid #A7A7A7;
+}
+.optionset li {
+	display: inline;
+	width: 100px;
+	height:  20px;
+	margin: 0;
+	padding: 0;
+}
+.optionset li input{
+	float: left;
+	padding: 0;
+	margin: 0 10px 0 5px;
+}
+.optionset li label{
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+
+
+/* @end */

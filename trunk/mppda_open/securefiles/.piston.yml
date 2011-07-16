@@ -1,0 +1,8 @@
+--- 
+repository_url: https://github.com/hamishcampbell/silverstripe-securefiles
+lock: false
+repository_class: Piston::Git::Repository
+format: 1
+handler: 
+  commit: 9618ef6605b2b1c3a2d6af9fb4ed15ae48520130
+  branch: master

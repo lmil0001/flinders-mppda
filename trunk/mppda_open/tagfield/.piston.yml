@@ -1,0 +1,8 @@
+--- 
+repository_url: http://github.com/chillu/tagfield.git
+lock: false
+repository_class: Piston::Git::Repository
+format: 1
+handler: 
+  commit: 6545ec2e4f90781c4f5aedab516ededf2252e595
+  branch: master

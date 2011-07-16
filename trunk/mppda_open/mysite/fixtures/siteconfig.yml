@@ -1,0 +1,12 @@
+SiteConfig:
+  config:
+    Title: MPPDA Digital Archive
+    Tagline: |
+      A study of the historical documents of the Motion Picture Association of America from 1922-1939
+    Theme: mppda
+    Copyright: |
+      Flinders Humanities Research Centre for Critical and Cultural Inquiry
+    CollectionStartDate: 1921-11-08
+    CollectionEndDate: 1939-10-02
+    LogoUrl: "http://www.flinders.edu.au/"
+    LogoTitle: Flinders University

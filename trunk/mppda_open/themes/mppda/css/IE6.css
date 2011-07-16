@@ -1,0 +1,11 @@
+form#SearchForm_SearchForm fieldset {
+    margin-top: -15px;
+}
+#SearchForm_SearchForm #SearchForm_SearchForm_action_results {
+    margin-top:-20px;
+    margin-left:120px;
+}
+form#SearchForm_SearchForm input.action {
+    margin-top:-20px;
+    margin-left:120px;
+}

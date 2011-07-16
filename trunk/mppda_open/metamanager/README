@@ -1,0 +1,25 @@
+###############################################
+Meta Mager Module
+###############################################
+
+Maintainer Contact
+-----------------------------------------------
+Martijn van Nieuwenhoven
+<marvanni (at) hotmail (dot) com>
+
+Requirements
+-----------------------------------------------
+
+Documentation
+-----------------------------------------------
+
+
+Installation Instructions
+-----------------------------------------------
+1. Place this module in your root of your Silverstripe installation. 
+2. Run yoursitename.com/dev/build/?flush=1. 
+3.Change your settings like wordlenght and exclude words as you prefer in metamanager/_config.php. 
+
+Usage Overview
+-----------------------------------------------
+Use this module if you want to autoupdate your MetaTitle, Metadescription and MetaKeywords fields on save. MetaTitle will autoupdate from Title, MetaDescription from Content and MetaKeywords will order keywords by occurence in Content. You can set the amount of keywords, minimum wordlenght and exclude words seperated by comma. You can even disable the urlsegment popup that shows everytime you change you pagetitle and hide the ExtraMetatab. Choose to hide the checkbox and choose checkbox position. You now can globally disable the metamanager without removing the metamangerfolder.

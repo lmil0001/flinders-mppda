@@ -1,0 +1,8 @@
+--- 
+repository_url: http://github.com/ajshort/silverstripe-itemsetfield.git
+lock: false
+repository_class: Piston::Git::Repository
+format: 1
+handler: 
+  commit: bd0c82f1bd2f39d53ae975941074284eb22e5c1c
+  branch: master

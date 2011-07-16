@@ -1,0 +1,19 @@
+Version 0.1.1 
+2010-10-21
+-------------
+
+* Removed dependency on legacydatetimefields
+
+Version 0.1.0 
+2010-10-19
+-------------
+
+* First published stable version for 2.4.2
+* Added logic for auto publishing article file locations when news articles
+  are published. 
+
+
+
+Version 0.1.0 RC1
+2009-11-16
+
