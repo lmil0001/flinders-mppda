@@ -1,0 +1,2 @@
+This PHP project is built upon version 2.4.5 of the [Silverstripe](Silverstripe.md) http://www.silverstripe.org CMS framework.
+Key features are a faceted search and dynamic master detail record view. All inquiries regarding this project should be directed to Flinders University, South Australia.
